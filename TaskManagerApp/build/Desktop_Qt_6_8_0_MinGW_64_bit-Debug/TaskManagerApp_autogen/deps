@@ -1,9 +1,11 @@
 TaskManagerApp_autogen/timestamp: \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtCore/QList \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtCore/QObject \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtCore/QPoint \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtCore/QRect \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtCore/QSize \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtCore/QSizeF \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtCore/QString \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtCore/q20functional.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtCore/q20iterator.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtCore/q20memory.h \
@@ -135,6 +137,7 @@ TaskManagerApp_autogen/timestamp: \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtCore/qxptype_traits.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtCore/qyieldcpu.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/QMouseEvent \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/QScreen \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/QTransform \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qaction.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qbitmap.h \
@@ -155,6 +158,8 @@ TaskManagerApp_autogen/timestamp: \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qkeysequence.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qpaintdevice.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qpalette.h \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qpen.h \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qpicture.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qpixelformat.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qpixmap.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qpointingdevice.h \
@@ -164,6 +169,10 @@ TaskManagerApp_autogen/timestamp: \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qrgba64.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qscreen.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qscreen_platform.h \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qtextcursor.h \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qtextdocument.h \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qtextformat.h \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qtextoption.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qtgui-config.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qtguiexports.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qtguiglobal.h \
@@ -172,10 +181,21 @@ TaskManagerApp_autogen/timestamp: \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qvectornd.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/QLabel \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/QLineEdit \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/QMainWindow \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/QSystemTrayIcon \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/QTextEdit \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/QWidget \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qframe.h \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qlabel.h \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qlineedit.h \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qmainwindow.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qsizepolicy.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qsystemtrayicon.h \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qtabwidget.h \
+	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qtextedit.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
 	C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -562,8 +582,22 @@ TaskManagerApp_autogen/timestamp: \
 	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
 	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
 	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/TaskManagerApp_autogen/moc_predefs.h \
-	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/main.cpp \
-	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/widget.cpp \
-	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/widget.h \
-	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/widget.ui \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/data.qrc \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/constant.h \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/itemmodel.cpp \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/itemmodel.h \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/itemunit.cpp \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/itemunit.h \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/main.cpp \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/tasklist.cpp \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/tasklist.h \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/taskunit.cpp \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/taskunit.h \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/template.cpp \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/template.h \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/tool.cpp \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/tool.h \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/widget.cpp \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/widget.h \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/widget.ui \
 	C:/Qt_6.8_desktop/Tools/CMake_64/bin/cmake.exe

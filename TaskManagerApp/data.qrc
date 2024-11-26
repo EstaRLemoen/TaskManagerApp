@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>data/image/floatingbutton.png</file>
+        <file>data/image/adder.png</file>
+        <file>data/image/deleter.png</file>
+        <file>data/image/templateediter.png</file>
+    </qresource>
+</RCC>

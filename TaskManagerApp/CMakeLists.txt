@@ -13,17 +13,33 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
-        main.cpp
-        widget.cpp
-        widget.h
-        widget.ui
+        src/main.cpp
+        src/widget.cpp
+        src/widget.h
+        src/widget.ui
+        data
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
-    qt_add_executable(TaskManagerApp
+
+
+qt_add_executable(TaskManagerApp
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-
+        data.qrc
+        src/tasklist.h
+        src/tasklist.cpp
+        src/itemunit.h
+        src/itemunit.cpp
+        src/itemmodel.h
+        src/itemmodel.cpp
+        src/taskunit.h
+        src/taskunit.cpp
+        src/tool.h
+        src/tool.cpp
+        src/constant.h
+        src/template.h
+        src/template.cpp
 
     )
 # Define target properties for Android with Qt 6 as:

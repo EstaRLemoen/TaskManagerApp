@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/TaskManagerApp_autogen",
+	"CMAKE_BINARY_DIR" : "C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp",
+	"CMAKE_SOURCE_DIR" : "C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/TaskManagerApp_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/data/image/deleter.png",
+		"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/data/image/adder.png",
+		"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/data/image/floatingbutton.png",
+		"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/data/image/templateediter.png"
+	],
+	"LOCK_FILE" : "C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/TaskManagerApp_autogen.dir/AutoRcc_data_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "data" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_data.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt_6.8_desktop/6.8.0/mingw_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/TaskManagerApp_autogen.dir/AutoRcc_data_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/data.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

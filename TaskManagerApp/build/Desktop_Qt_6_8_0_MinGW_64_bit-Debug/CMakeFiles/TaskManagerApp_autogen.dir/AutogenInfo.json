@@ -257,7 +257,8 @@
 		"C:/Qt_6.8_desktop/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake",
 		"C:/Qt_6.8_desktop/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
 		"C:/Qt_6.8_desktop/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
-		"C:/Qt_6.8_desktop/Tools/CMake_64/share/cmake-3.29/Modules/GNUInstallDirs.cmake"
+		"C:/Qt_6.8_desktop/Tools/CMake_64/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
+		"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/data.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp",
 	"CROSS_CONFIG" : false,
@@ -266,9 +267,51 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/widget.h",
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/constant.h",
 			"MU",
-			"EWIEGA46WW/moc_widget.cpp",
+			"UVLADIE3JM/moc_constant.cpp",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/itemmodel.h",
+			"MU",
+			"UVLADIE3JM/moc_itemmodel.cpp",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/itemunit.h",
+			"MU",
+			"UVLADIE3JM/moc_itemunit.cpp",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/tasklist.h",
+			"MU",
+			"UVLADIE3JM/moc_tasklist.cpp",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/taskunit.h",
+			"MU",
+			"UVLADIE3JM/moc_taskunit.cpp",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/template.h",
+			"MU",
+			"UVLADIE3JM/moc_template.cpp",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/tool.h",
+			"MU",
+			"UVLADIE3JM/moc_tool.cpp",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/widget.h",
+			"MU",
+			"UVLADIE3JM/moc_widget.cpp",
 			null
 		]
 	],
@@ -344,12 +387,42 @@
 	"SOURCES" : 
 	[
 		[
-			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/main.cpp",
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/itemmodel.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/widget.cpp",
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/itemunit.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/tasklist.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/taskunit.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/template.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/tool.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/widget.cpp",
 			"MU",
 			null
 		]
