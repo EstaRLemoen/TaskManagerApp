@@ -3,6 +3,8 @@
 
 #include <QWidget>
 #include "itemunit.h"
+#include "timeunit.h"
+#include "remindunit.h"
 
 class TaskUnit: public QWidget{
     Q_OBJECT
@@ -25,8 +27,8 @@ public:
 
     void fold();
     void unfold();
-    //TimeUnit getTimeUnit();
-    //RemindUnit getRemindUnit();
+    TimeUnit getTimeUnit();
+    RemindUnit getRemindUnit();
     QString toQString();
 
 };

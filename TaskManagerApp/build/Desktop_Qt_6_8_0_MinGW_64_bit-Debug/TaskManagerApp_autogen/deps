@@ -589,12 +589,20 @@ TaskManagerApp_autogen/timestamp: \
 	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/itemunit.cpp \
 	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/itemunit.h \
 	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/main.cpp \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/reminder.cpp \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/reminder.h \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/remindunit.cpp \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/remindunit.h \
 	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/tasklist.cpp \
 	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/tasklist.h \
 	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/taskunit.cpp \
 	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/taskunit.h \
 	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/template.cpp \
 	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/template.h \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/timeline.cpp \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/timeline.h \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/timeunit.cpp \
+	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/timeunit.h \
 	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/tool.cpp \
 	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/tool.h \
 	C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/widget.cpp \

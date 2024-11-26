@@ -65,13 +65,19 @@ void TaskUnit::unfold(){
     ;// TODO: 3.2 Unfold
 }
 
-// TODO: 4. offer infomation for TimeLine and Reminder
-//TimeUnit TaskUnit::getTimeUnit(){}
-//RemindUnit TaskUnit::getRemindUnit(){}
+TimeUnit TaskUnit::getTimeUnit(){
+    // TODO: 4.1 offer infomation for TimeLine
+    return TimeUnit(-1, nullptr, nullptr, nullptr);
+}
+RemindUnit TaskUnit::getRemindUnit(){
+    // TODO: 4.2 offer infomation for Reminder
+    return RemindUnit("","");
+}
 
 
 QString TaskUnit::toQString(){
-    ;// TODO: 5. toStirng, for debuging and save data
+    // TODO: 5. toStirng, for debuging and save data
+    return (QString)"";
 }
 
 //=====================================================================================

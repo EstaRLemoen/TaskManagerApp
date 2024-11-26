@@ -119,7 +119,7 @@ void Widget::mouseMoveEvent(QMouseEvent *event)
 
         event->accept();
         this->is_moved = true;
-        //qDebug("should Just move the FloatingButton");
+        //qDebug("should move the FloatingButton along with other widgets");
     }
 
 }

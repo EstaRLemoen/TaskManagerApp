@@ -36,6 +36,7 @@ public slots:
     void switchVisibility();
 protected:
     void mouseDoubleClickEvent(QMouseEvent *event);
+    //TODO: reload the hide to hide its `input_widget`
 };
 
 class Deleter:public Tool{

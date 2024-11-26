@@ -10,6 +10,7 @@ Tool::Tool(){
     //设置图标样式
     setWindowFlags(windowFlags() | Qt::FramelessWindowHint);
     setWindowFlags(windowFlags() | Qt::WindowStaysOnTopHint);
+    setWindowFlags(Qt::Tool | Qt::FramelessWindowHint);
     setAttribute(Qt::WA_TranslucentBackground);
     this->resize(BOTTON_WIDHT, BOTTON_HEIGHT);
     this->botton = nullptr;
@@ -17,17 +18,22 @@ Tool::Tool(){
 
 //============================ class Adder and AdderInputWidget ================================
 AdderInputWidget::AdderInputWidget(){
+    setWindowFlags(windowFlags() | Qt::FramelessWindowHint);
+    setWindowFlags(Qt::Tool | Qt::FramelessWindowHint);
+
     QTextEdit* input_line;
     for(int i = 0; i < BASIC_ITEM_LIST_LENGTH;i++){
         input_line = new QTextEdit(this);
         input_line->resize(TITLE_BLOCK_WIDHT,TITLE_BLOCK_WIDHT);
-        input_line->move(i*TITLE_BLOCK_WIDHT,0);
+        input_line->move(i*TITLE_BLOCK_WIDHT,BOTTON_HEIGHT);
         input_line->setPlaceholderText(BASIC_ITEM_NAME[i]);
 
         this->input_lines.push_back(input_line);
         input_line = nullptr;
     }
-    this->resize(BASIC_ITEM_LIST_LENGTH*TITLE_BLOCK_WIDHT,TITLE_BLOCK_HEIGHT);
+    this->resize(fmax(BASIC_ITEM_LIST_LENGTH*TITLE_BLOCK_WIDHT,
+                     BOTTON_WIDHT * 2),
+                 TITLE_BLOCK_HEIGHT+BOTTON_HEIGHT);
 
     QFont form_;
     form_.setPointSize(TEXT_SIZE);

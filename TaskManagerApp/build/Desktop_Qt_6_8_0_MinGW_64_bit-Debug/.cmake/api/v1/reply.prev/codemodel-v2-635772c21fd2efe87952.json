@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-e93a47216c81c6202e9e.json",
+					"jsonFile" : "directory-.-Debug-473fba2b6dbf45d3c49d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TaskManagerApp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TaskManagerApp-Debug-13748abe9397378e543b.json",
+					"jsonFile" : "target-TaskManagerApp-Debug-ce13c845450bfc4aa0e9.json",
 					"name" : "TaskManagerApp",
 					"projectIndex" : 0
 				},

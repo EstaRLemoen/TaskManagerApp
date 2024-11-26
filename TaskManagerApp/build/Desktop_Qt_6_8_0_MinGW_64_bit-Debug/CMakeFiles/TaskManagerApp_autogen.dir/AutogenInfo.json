@@ -285,6 +285,18 @@
 			null
 		],
 		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/reminder.h",
+			"MU",
+			"UVLADIE3JM/moc_reminder.cpp",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/remindunit.h",
+			"MU",
+			"UVLADIE3JM/moc_remindunit.cpp",
+			null
+		],
+		[
 			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/tasklist.h",
 			"MU",
 			"UVLADIE3JM/moc_tasklist.cpp",
@@ -300,6 +312,18 @@
 			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/template.h",
 			"MU",
 			"UVLADIE3JM/moc_template.cpp",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/timeline.h",
+			"MU",
+			"UVLADIE3JM/moc_timeline.cpp",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/timeunit.h",
+			"MU",
+			"UVLADIE3JM/moc_timeunit.cpp",
 			null
 		],
 		[
@@ -402,6 +426,16 @@
 			null
 		],
 		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/reminder.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/remindunit.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/tasklist.cpp",
 			"MU",
 			null
@@ -413,6 +447,16 @@
 		],
 		[
 			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/template.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/timeline.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/timeunit.cpp",
 			"MU",
 			null
 		],

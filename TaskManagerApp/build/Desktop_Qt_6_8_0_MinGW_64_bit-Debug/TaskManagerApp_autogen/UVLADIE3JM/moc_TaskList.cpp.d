@@ -372,4 +372,6 @@ C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/build/Desktop_Qt_6_8_0_MinGW_64
   C:/Qt_6.8_desktop/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
   C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/itemmodel.h \
   C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/itemunit.h \
-  C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/taskunit.h
+  C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/remindunit.h \
+  C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/taskunit.h \
+  C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/timeunit.h
