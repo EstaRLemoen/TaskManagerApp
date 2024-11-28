@@ -34,6 +34,6 @@ bool ItemUnit::isBelongModel(const ItemModel* mod)const{
 }
 
 QString ItemUnit::toQString(){
-    ;// TODO: toStirng, for debuging and save data
+    return (QString)"";// TODO: toStirng, for debuging and save data
 }
 

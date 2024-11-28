@@ -1,6 +1,7 @@
 #include "widget.h"
 #include "./ui_widget.h"
 
+#include "constant.h"
 #include "QImage"
 #include "QLabel"
 #include "QMouseEvent"
@@ -61,14 +62,14 @@ Widget::Widget(QWidget *parent)
     setWindowFlags(windowFlags() | Qt::FramelessWindowHint);
     setWindowFlags(windowFlags() | Qt::WindowStaysOnTopHint);
     setAttribute(Qt::WA_TranslucentBackground);
-    this->resize(46, 40);
+    this->resize(BOTTON_WIDHT, BOTTON_HEIGHT);
     //加载图标图片
     QImage background;
     background.load("://data/image/floatingbutton.png");
-    background = background.scaled(46, 40);
+    background = background.scaled(BOTTON_WIDHT, BOTTON_HEIGHT);
     QLabel* botton = new QLabel(this);
     botton->setPixmap(QPixmap::fromImage(background));
-    botton->resize(46, 40);
+    botton->resize(BOTTON_WIDHT, BOTTON_HEIGHT);
     botton->move(0, 0);
     botton->show();
 

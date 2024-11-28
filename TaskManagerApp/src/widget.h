@@ -11,9 +11,6 @@
 #include "tool.h"
 #include "template.h"
 
-#define DEFAULT_TASKLIST_WIDTH 300
-#define DEFAULT_TASKLIST_HEIGHT 700
-
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class Widget;
@@ -31,31 +28,31 @@ public:
 private:
     Ui::Widget *ui;
 
-
-private:
-    QPoint drag_position;
-    QSystemTrayIcon *tray_icon;
-    bool is_moved;
-    //BELOW: sub widgets
-    TaskList *tasklist;
-    Template *template_;
-    Adder *adder;
-    Deleter *deleter;
-    TemplateEditer *template_editer;
-    //Searcher *seacher;
-    void init_all_parts();
-
 protected:
     void hide();
     void mousePressEvent(QMouseEvent *);
     void mouseMoveEvent(QMouseEvent *);
     void mouseReleaseEvent(QMouseEvent *);
     void closeEvent(QCloseEvent *event);
-    QPoint getTaskListPosition(); //TODO: 根据浮动按钮的全局位置获取TaskList应当被显示在何处
-    QPoint getTimeLinePosition(){return QPoint(0,0);}; //TODO:
-    //QPoint (){return maptoGlobal(QPoint(0,0));};
+
+private:
+    QPoint drag_position;
+    QSystemTrayIcon *tray_icon;
+    bool is_moved;
+
+    //Below is sub widgets
+    TaskList *tasklist;
+    Template *template_;
+    Adder *adder;
+    Deleter *deleter;
+    TemplateEditer *template_editer;
+    //Searcher *seacher;
+
+    void init_all_parts();
+    QPoint getTaskListPosition();   //TODO: 根据浮动按钮的全局位置获取TaskList应当被显示在何处
+    //QPoint getTimeLinePosition()  //TODO: 类似上方
+
 private slots:
-    //void showWindow();
     void onTrayIconActivated(QSystemTrayIcon::ActivationReason reason);
 
 };
