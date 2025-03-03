@@ -18,22 +18,38 @@ class AdderInputWidget: public QMainWindow{
     Q_OBJECT
 private:
     std::vector<QTextEdit*> input_lines;
-public:
-    AdderInputWidget();
+signals:
+    void sendNewTaskMsg(std::vector<QString*> bItemDescrips);
 public slots:
     void switchVisibility();
     void save();
     void cancel();
+public:
+    AdderInputWidget(QWidget* parent_);
+
+    // lab5:only for test
+    void testhelper_setInputs(QString str0, QString str1, QString str2, QString str3);
+    void test_save();
+    // lab5 end
 };
 
 class Adder:public Tool{
     Q_OBJECT
 private:
     AdderInputWidget* input_widget;
+signals:
+    void sendNewTaskMsg(std::vector<QString*> bItemDescrips);
 public:
     Adder();
+    ~Adder();
 public slots:
     void switchVisibility();
+    void getNewTaskMsg(std::vector<QString*> bItemDescrips);
+public:
+    void hide();
+    // lab5:only for test
+    void test_save();
+    // lab5 end
 protected:
     void mouseDoubleClickEvent(QMouseEvent *event);
     //TODO: reload the hide to hide its `input_widget`

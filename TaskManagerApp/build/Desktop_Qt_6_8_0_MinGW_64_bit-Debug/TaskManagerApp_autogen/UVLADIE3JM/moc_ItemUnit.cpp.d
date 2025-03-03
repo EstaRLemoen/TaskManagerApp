@@ -152,13 +152,13 @@ C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/build/Desktop_Qt_6_8_0_MinGW_64
   C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qtransform.h \
   C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/QLineEdit \
+  C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/QTextBrowser \
   C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/QTextEdit \
   C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/QWidget \
   C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qframe.h \
-  C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qlineedit.h \
   C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qsizepolicy.h \
+  C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qtextbrowser.h \
   C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qtextedit.h \
   C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt_6.8_desktop/6.8.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \

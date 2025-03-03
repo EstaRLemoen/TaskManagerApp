@@ -10,7 +10,7 @@ private:
     QString name;
     QString ddl;
 public:
-    RemindUnit(QString, QString);
+    RemindUnit(QString name, QString ddl);
 };
 
 #endif // REMINDUNIT_H

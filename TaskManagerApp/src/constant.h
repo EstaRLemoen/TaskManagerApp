@@ -17,22 +17,46 @@ const QString ITEMTYPE_LIST[ITEMTYPE_NUMBER] = {
     "string",
     "timestamp"
 };
+enum class ITEMTYPE_INDEX{
+    NUM = 0,
+    STR = 1,
+    TIME = 2
+};
+
+// TIME_LIMIT INFO
+const int REMIND_TIME_LIMIT_HOURS = 24;
+
+// DEFAULT INFO
+//      ITEMMODEL
+const QString DEFAULT_ITEMMODEL_NAME = "DEFAULT";
+const bool DEFAULT_ITEMMODEL_IS_USER = true;
+const bool DEFAULT_ITEMMODEL_IS_VISIBLE = true;
+//      ITEMUNIT
+const QString DEFALUT_ITEMUNIT_DESCRIPTION = "DEFAULT";
+//      TASKLIST
+const int DEFAULT_TASKLIST_WIDTH = 500;
+const int DEFAULT_TASKLIST_HEIGHT = 500;
 
 // BASIC ITEM SETTING
-const int BASIC_ITEM_LIST_LENGTH = 2;
+const int BASIC_ITEM_LIST_LENGTH = 4;
 const QString BASIC_ITEM_NAME[BASIC_ITEM_LIST_LENGTH] = {
     "name",
-    "ddl"
+    "ddl",
+    "detail",
+    "importance"
 };
-const QString BASIC_ITEM_TYPE[BASIC_ITEM_LIST_LENGTH] = {
-    "string",
-    "timestamap"
+const int BASIC_ITEM_TYPE[BASIC_ITEM_LIST_LENGTH] = {
+    1,  // "string"
+    2,  // "timestamp"
+    1,  // "string"
+    0   // "number"
 };
+bool checkDescripWithType(const QString& descrip, const int& type_idx);
 const int IDX_TASKNAME = 0;
 const int IDX_TASKDDL = 1;
 
-// TASKLIST SIZE INFO
-const int DEFAULT_TASKLIST_WIDTH = 300;
-const int DEFAULT_TASKLIST_HEIGHT = 700;
+// lab5:only for test
+void test_checkDescripWithType();
+// lab5 end
 
 #endif // CONSTANT_H

@@ -48,6 +48,10 @@ qt_add_executable(TaskManagerApp
         src/timeunit.cpp
         src/remindunit.h
         src/remindunit.cpp
+        src/test_lab4.cpp
+        src/test.h
+        src/test.cpp
+        src/constant.cpp
 
     )
 # Define target properties for Android with Qt 6 as:

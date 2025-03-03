@@ -315,6 +315,12 @@
 			null
 		],
 		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/test.h",
+			"MU",
+			"UVLADIE3JM/moc_test.cpp",
+			null
+		],
+		[
 			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/timeline.h",
 			"MU",
 			"UVLADIE3JM/moc_timeline.cpp",
@@ -411,6 +417,11 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/constant.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/itemmodel.cpp",
 			"MU",
 			null
@@ -447,6 +458,16 @@
 		],
 		[
 			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/template.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/test.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/myGitHub/SE_lab/TaskManagerApp/TaskManagerApp/src/test_lab4.cpp",
 			"MU",
 			null
 		],

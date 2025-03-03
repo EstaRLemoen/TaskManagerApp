@@ -12,18 +12,28 @@
 
 QPoint Widget::getTaskListPosition(){
     //TODO
-    return QPoint(0,0);
+    return QPoint(this->pos().rx()+40,this->pos().ry()+40);
+}
+
+QPoint Widget::getToolPosition(int ind){
+    //TODO
+    return QPoint(this->pos().rx(),this->pos().ry()+40*ind);
 }
 
 void Widget::init_all_parts(){
-    this->tasklist = new TaskList(DEFAULT_TASKLIST_WIDTH,DEFAULT_TASKLIST_HEIGHT);
+    this->template_ = new Template();
+    this->template_->show();
+    this->tasklist = new TaskList(DEFAULT_TASKLIST_WIDTH,DEFAULT_TASKLIST_HEIGHT,this->template_);
+    tasklist->move(this->getTaskListPosition());
     this->tasklist->hide();
-    //TODO: template_
     this->adder = new Adder();
+    adder->move(this->getToolPosition(1));
     this->adder->hide();
     // TODO: deleter, template_editer, searcher
     // TODO: Timeline
     // TODO: Reminder
+
+    connect(this->adder,&Adder::sendNewTaskMsg,this->tasklist,&TaskList::getNewTaskMsg);
 }
 
 Widget::Widget(QWidget *parent)
@@ -74,6 +84,17 @@ Widget::Widget(QWidget *parent)
     botton->show();
 
     this->init_all_parts();
+
+
+    // lab5:only for test
+    // Unit
+    test_checkDescripWithType();
+    this->template_->test_getModel();
+    // getTogether
+    this->template_->test_addUserModel();
+    this->adder->test_save();
+    // lab5 end
+
 }
 
 Widget::~Widget()
@@ -91,7 +112,6 @@ void Widget::mousePressEvent(QMouseEvent *event)
 {
     if(event->button()==Qt::LeftButton)
     {
-
         this->drag_position = event->globalPosition().toPoint() - this->pos();
         //event->accept();
     }
@@ -105,18 +125,9 @@ void Widget::mouseMoveEvent(QMouseEvent *event)
     if(event->buttons()&Qt::LeftButton)
     {
         int x=0, y=0;
-
-        //x = event->globalPosition().rx() - dragPosition.rx();
-        //y = event->globalPosition().ry() - dragPosition.ry();
         move(event->globalPosition().toPoint()-(this->drag_position));
-
-        //TODO: taskList->move(x',y');
-
-        //TODO: adder->move(x'',y'');
-
-        //TODO: deleter->move(x''',y''');
-
-        //TODO:...
+        tasklist->move(this->getTaskListPosition());
+        adder->move(this->getToolPosition(1));
 
         event->accept();
         this->is_moved = true;

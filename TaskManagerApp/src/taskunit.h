@@ -27,8 +27,8 @@ public:
 
     void fold();
     void unfold();
-    TimeUnit getTimeUnit();
-    RemindUnit getRemindUnit();
+    TimeUnit* getTimeUnit();
+    std::vector<QString*> getRemindMessage();
     QString toQString();
 
 };

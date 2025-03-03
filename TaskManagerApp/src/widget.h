@@ -40,6 +40,12 @@ private:
     QSystemTrayIcon *tray_icon;
     bool is_moved;
 
+    void init_all_parts();
+    QPoint getTaskListPosition();   //TODO: 根据浮动按钮的全局位置获取TaskList应当被显示在何处
+    //QPoint getTimeLinePosition()  //TODO: 类似上方
+    QPoint getToolPosition(int ind);
+
+public:
     //Below is sub widgets
     TaskList *tasklist;
     Template *template_;
@@ -48,9 +54,6 @@ private:
     TemplateEditer *template_editer;
     //Searcher *seacher;
 
-    void init_all_parts();
-    QPoint getTaskListPosition();   //TODO: 根据浮动按钮的全局位置获取TaskList应当被显示在何处
-    //QPoint getTimeLinePosition()  //TODO: 类似上方
 
 private slots:
     void onTrayIconActivated(QSystemTrayIcon::ActivationReason reason);
